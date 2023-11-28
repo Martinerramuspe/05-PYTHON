@@ -11,12 +11,16 @@ df= df.T
 # asignamos nombre a la variable nombres
 df.index.name = 'nombre_usuario'
 df
+# FORMAS DE BUSCAR VALORES DENTRO DE UN DATAFRA:----------------------------------------------------------------------------
 "juan" in df.index # acordate que nombre_usuario es index
 "tecnico" in df["rol"].values 
-"tecnico" in df.values # no incluye index, solo columnas
-"juan" in df.values
+"tecnico" in df.values # No incluye index, solo columnas
+"juan" in df.values # Como poder observar no lo encuentra
  
-(df["status"] != "OK").any() # ADAPTA ESTE COMANDO A A TU ENTORNO, CUANDO VUELVAS A ESTUDIAR ESTO.
+(df["edad"] != 44).any() # Si existe un valor en la columna edad, distinto de 44, entonces = true.
+((df["edad"] <= 14) & (df["edad"] >= 44)).any() # si encuentra valores menores que 14 y mayores que 44, entoces =true.
 
 
- #Observacion_01: Dentro de un dataframe hay 2 partes: INDEX y COLUMNAS.
+ # Observacion_01: Dentro de un dataframe hay 2 partes: INDEX y COLUMNAS.
+ # Obervacion_02: != ---> Eso significa distinto de ...
+ # Observacion_03: == ---> Eso significa exactament igual 

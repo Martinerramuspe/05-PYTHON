@@ -53,10 +53,12 @@ df =pd.DataFrame(usuarios)
 df= df.T
 # asignamos nombre a la variable nombres
 df.index.name = 'nombre_usuario'
+df.columns
+df.index.name
 # Creamos consulta a base de datos, para ver si exite  un indice (index) en el dataframe llamando asi.
 inyeccion= input("ingrese nombre: ")
 if inyeccion  in df.index:
-    print("Extiste le usuario en la base de datos")
+    print("Extiste el usuario en la base de datos")
 else:
     print("NO existe ese perro")
                  
