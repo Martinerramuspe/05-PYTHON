@@ -21,5 +21,5 @@ diccionario3 = {'nombre': 'Charlie', 'edad': 35}
 list = [diccionario1, diccionario2, diccionario3]
 list
 
-# Busqueda dentro de la lista, 
+# Busqueda del indice sabien el dato que hay dentro. 
 a.index("juan")
