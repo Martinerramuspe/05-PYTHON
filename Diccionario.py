@@ -19,7 +19,7 @@ usuarios_3 = {
     "martin": {"edad": 34, "roles": ["data_ciences", "desarrollador"]},
     "agustin": {"edad": 14, "roles": ["tecnico", "estudiante"]}
 }
-usuarios_3["juan"]["roles"]
+usuarios_3["juan"]["roles"] #llamado de clave-valor
 type(usuarios_3["juan"]["roles"])
 
 # COMPLEJIDAD 4-------------------------------------------------------------------------------------
