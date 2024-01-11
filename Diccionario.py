@@ -1,4 +1,4 @@
-# DICCIONARIO: SE INTEGRA SI O SI CON ELEMENTOS DE TIPO  CLAVE-VALOR.
+# DICCIONARIO: sSE INTEGRA SI O SI CON ELEMENTOS DE TIPO  CLAVE-VALOR.
 
 # COMPLEJIDAD 1-------------------------------------------------------------------------------------
 usuarios_1 = {"juan":3,"martin":"Tecnico","agustin": 11.3} #defincion de diccionario clave-valor

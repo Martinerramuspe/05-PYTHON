@@ -5,7 +5,7 @@ a= [1,2,"mario",4,"juan"]
 a[4]
 # Llamado de elementos consecutivos
 a[2:4]
-# Observacion_01: No se puede llamar 2 elementos o mas en una misma linea
+# Observacion_01: No ses puede llamar 2 elementos o mas en una misma linea
 
 # Concatenado de listas
 lista1 = [1, 2, 3]
